@@ -1,0 +1,106 @@
+.section-list {
+    width: 85%;
+}
+.book-list {
+    display: flex;
+    flex-direction: column;
+}
+.section-book-title {
+    color: black;
+    font-size: 35px;
+    padding: 20px;
+}
+.book-list-item {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.book-item {
+    width: 225px;
+    height: 500px;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+}
+.book-item:hover {
+    background-color: rgba(0, 0, 0, 0.113);
+}
+.book-item .image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.book-item .image img {
+    width: 220px;
+    height: 400px;
+}
+.book-description {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: space-between;
+    height: 90px;
+}
+.book-description h4 {
+    font-size: 25px;
+    color: black;
+}
+.book-description span {
+    font-size: 18px;
+}
+.book-description button {
+    color: white;
+    background-color: black;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+}
+.book-description button:hover {
+    background: rgba(0, 0, 0, 0.568);
+    cursor: pointer;
+}
+
+/* Pour le button rechercher */
+.section-search-book {
+    font-size: 35px;
+    padding: 20px 35px;
+}
+#search {
+    height: 35px;
+    width: 150px;
+    padding: 0 10px;
+    border-radius: 8px;
+}
+.search-btn {
+    color: white;
+    width: 100px;
+    background-color: black;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+}
+.search-btn:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.446);
+}
+
+/* Pour la liste des catégorie */
+.section-list-categorie {
+    font-size: 35px;
+    padding: 20px 35px;
+}
+.categorie-item {
+    color: black;
+    /* width: 100px; */
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.actif {
+    background-color: gray;
+    color: white;
+}

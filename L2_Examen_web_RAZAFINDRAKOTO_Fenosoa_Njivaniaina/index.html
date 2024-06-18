@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="css/description.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Acueil</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="nav-title">
+                <h1>Bibliothèque</h1>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <a href="#home" class="nav-item"><li>Accueil</li></a>
+                    <a href="#list" class="nav-item"><li>List</li></a>
+                    <a href="#add" class="nav-item"><li>Ajout</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-welcome" id="home">
+            <div class="content">
+                <div class="main-title">
+                    <h2>Bienvenue</h2>
+                </div>
+                <div class="main-description">
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, voluptas?
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-add" id="add">
+            <div class="add-form">
+                <h1>Ajout d'une livre</h1>
+                <form action="" class="formulaire" id="form-add">
+                    <label for="title">Titre: </label><input type="text" name="title" id="title" required>
+                    <label for="image">Image: </label><input type="file" name="image" id="image" required class="input-image">
+                    <label for="auteur">Auteurs: </label><input type="text" name="auteur" id="auteur">
+                    <label for="isbn">Isbn: </label><input type="text" name="isbn" id="isbn">
+                    <label for="editeur">Editeur: </label><input type="text" name="editeur" id="editeur">
+                    <label for="date">Date de publication: </label><input type="text" name="date" id="date">
+                    <label for="genre">Genre: </label><input type="text" name="genre" id="genre">
+                    <label for="resume">Résumer: </label><input type="text" name="resume" id="resume">
+                    <label for="langue">Langue: </label><input type="text" name="langue" id="langue">
+                    <label for="page">Nombre de page: </label><input type="numbre" name="page" id="page">
+                    <label for="disponibility">disponibilite: </label><input type="text" name="disponibility" id="disponibility">
+                    <label for="etat">Etat: </label><input type="text" name="etat" id="etat">
+                    <label for="emplacement">Réserves: </label><input type="text" name="reserve" id="reserve">
+                    <input type="submit" value="Ajouter" class="submit">
+                </form>
+            </div>
+        </section>
+
+        <section class="section-list" id="list">
+            <div class="book-list">
+                <div class="section-book-title">
+                    <h2>List des livres</h2>
+                </div>
+                <div class="section-list-categorie">
+                    <button class="categorie-item actif" id="cat-all">Tous</button>
+                    <button class="categorie-item" id="cat-science">Science-fiction</button>
+                    <button class="categorie-item" id="cat-manga">Manga</button>
+                </div>
+                <div class="section-search-book">
+                    <form action="" id="form-search">
+                        <input type="text" id="search" placeholder="Rechercher un titre...">
+                        <button type="submit" class="search-btn">Rechercher</button>
+                    </form>
+                </div>
+                <ul class="book-list-item" id="list-book">
+                    <!-- <li class="book-item">
+                        <div class="image">
+                            <img src="assets/book/bd1.jpg" alt="">
+                        </div>
+                        <div class="book-description">
+                            <h4>Titre </h4>
+                            <span>George Orwell</span>
+                            <button id="more-description">Details</button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-description" id="description">
+            <h1>Description</h1>
+            <div class="information">
+                <div class="content-left">
+                    <img src="" alt="" id="desc-image">
+                </div>
+                <div class="content-rigth">
+                    <span id="desc-title">Titre: </span>
+                    <span id="desc-auteur">Auteurs: </span>
+                    <span id="desc-isbn">Isbn: </span>
+                    <span id="desc-date">Date de publication: </span>
+                    <span id="desc-genre">Genre: </span>
+                    <span id="desc-resume">Résumer: </span>
+                    <span id="desc-langue">Langue: </span>
+                    <span id="desc-page">Nombre de page: </span>
+                    <span id="desc-etat">Etat : </span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="content-footer">
+            <div class="text-footer">
+                <span> 2024 @ Gestion de Bibliothèque</span>
+            </div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

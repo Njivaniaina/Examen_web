@@ -1,0 +1,30 @@
+[
+    {
+        "titre": ["George Orwell"],
+        "isbn": "72828-28-22-22786782",
+        "image": "book/bd1.jpg",
+        "editeur": "Gallimard",
+        "datePublication": "1949",
+        "genre": "Dystopie, Science-fiction",
+        "resume": "Un homme lutte contre une régime totalitaire oppressif dans un monde dystopique",
+        "langue": "Français",
+        "nombrePages": 368,
+        "disponibilite": false,
+        "etat": "Endommagé",
+        "Emplacement": "Réserves"
+    },
+    {
+        "titre": ["George Orwell"],
+        "isbn": "72828-28-22-22786782",
+        "image": "book/bd1.jpg",
+        "editeur": "Gallimard",
+        "datePublication": "1949",
+        "genre": "Dystopie, Science-fiction",
+        "resume": "Un homme lutte contre une régime totalitaire oppressif dans un monde dystopique",
+        "langue": "Français",
+        "nombrePages": 368,
+        "disponibilite": false,
+        "etat": "Endommagé",
+        "Emplacement": "Réserves"
+    }
+]
